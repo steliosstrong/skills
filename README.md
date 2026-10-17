@@ -1,2 +1,3 @@
 # skills
-Claude skills for Product design. 
+Claude skills for Product people.
+  Can be used consecutively or ad hoc. 
