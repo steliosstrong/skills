@@ -1,6 +1,6 @@
 # Skills for Product People
 
-Claude skills for taking a product from idea to a live, findable website. Written by [Stelios Strongylis](https://strongyl.is), Product leader with a UX background, not an engineer.
+Claude skills for taking a product from idea to a live, findable website or app. Written by [Stelios Strongylis](https://strongyl.is), Product leader with a UX background, not an engineer.
 
 Use them in order as a pipeline, or pick one when you need it. Each works on its own.
 
