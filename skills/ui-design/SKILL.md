@@ -1,6 +1,10 @@
 ---
 name: "ui-design"
 description: "Design or refine UI. From a prompt or simple directions, generate a unique, craft-correct interface; or take a first draft (code, URL, screenshots) and refine it. Applies a universal craft core plus one aesthetic pack. Use for: design this UI, build this screen, polish or de-genericize a draft."
+license: "MIT"
+metadata:
+  author: "Stelios Strongylis"
+  source: "https://github.com/steliosstrong/skills"
 ---
 
 # UI Design

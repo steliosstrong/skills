@@ -1,6 +1,6 @@
 # Skills for Product People
 
-Claude skills for taking a product from idea to a live, findable website. Written by Stelios Strongylis, Product leader with a UX background, not an engineer.
+Claude skills for taking a product from idea to a live, findable website. Written by [Stelios Strongylis](https://strongyl.is), Product leader with a UX background, not an engineer.
 
 Use them in order as a pipeline, or pick one when you need it. Each works on its own.
 
@@ -47,6 +47,10 @@ Copy any `SKILL.md` into your project, or paste it into a chat.
 
 Specs get skimmed. Short, prose-first pages get read. Most AI output in product work is long, generic and decides nothing. These skills push back: short docs, real decisions, interfaces with a point of view, and a site that does its job.
 
+## Credit
+
+Free to use, adapt and share under the MIT license. If you republish or build on these skills, keep the credit line in each `SKILL.md` and link back to this repo.
+
 ## License
 
-MIT
+MIT © Stelios Strongylis

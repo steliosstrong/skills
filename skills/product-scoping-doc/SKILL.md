@@ -1,6 +1,10 @@
 ---
 name: "product-scoping-doc"
 description: "Draft minimal, prose-first product scoping documents for any project or company. Use whenever the user asks to create, draft, write, or revise a scoping doc, product scope, spec, feature scope, project brief, or one-pager — or says things like \"scope this out\", \"write a scoping draft\", \"spec page for X\", or \"shorten this into a scoping doc\". Runs a short structured interview first, then produces a compact team-first doc with an exec summary on top — prose-first, around six sections, soft two-page ceiling, always ending with open questions to drive decisions."
+license: "MIT"
+metadata:
+  author: "Stelios Strongylis"
+  source: "https://github.com/steliosstrong/skills"
 ---
 
 # Product Scoping Doc
