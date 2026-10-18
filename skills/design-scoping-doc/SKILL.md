@@ -1,6 +1,10 @@
 ---
 name: "design-scoping-doc"
 description: "Create a design scoping doc that gives an AI design tool or design engineer the design language, component feel and screen inventory to start from. Use after a product scoping doc, or standalone when the user asks to scope the design, write a design brief, or set design direction."
+license: "MIT"
+metadata:
+  author: "Stelios Strongylis"
+  source: "https://github.com/steliosstrong/skills"
 ---
 
 # Design Scoping Doc

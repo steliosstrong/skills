@@ -1,6 +1,10 @@
 ---
 name: "website-optimization"
 description: "Fix a website end to end so it ranks on Google and gets cited by AI search (ChatGPT, Perplexity, Gemini). Fixes everything it can, then reports every text it wrote for owner review. For non-technical owners."
+license: "MIT"
+metadata:
+  author: "Stelios Strongylis"
+  source: "https://github.com/steliosstrong/skills"
 ---
 
 # Website Optimization
