@@ -38,7 +38,7 @@ Copy any `SKILL.md` into your project, or paste it into a chat.
 
 | Skill | What it does | Say something like |
 | --- | --- | --- |
-| [product-scoping-doc](skills/product-scoping-doc/SKILL.md) | Short interview, then a prose-first scoping doc: exec summary on top, about six sections, ends with open questions that drive decisions. | "Scope this out", "write a one-pager for X" |
+| [product-scoping-doc](skills/product-scoping-doc/SKILL.md) | Short interview, then a prose-first scoping doc: exec summary on top, about seven sections within three pages, a testable success measure, and open questions that drive decisions. | "Scope this out", "write a one-pager for X" |
 | [design-scoping-doc](skills/design-scoping-doc/SKILL.md) | Turns the product scope into a design brief: design language, component feel, screen inventory, and one-word decisions. Built for an AI design tool to read. | "Scope the design", "write a design brief" |
 | [ui-design](skills/ui-design/SKILL.md) | Generates a distinctive interface from a prompt, or refines a first draft (code, URL, screenshots) so it stops looking generic. | "Design this screen", "polish this draft" |
 | [website-optimization](skills/website-optimization/SKILL.md) | Fixes a site end to end so it ranks on Google and gets cited by AI search. Fixes first, then lists every text it wrote for you to review. For non-technical owners. | "Optimize my website", "why doesn't my site show up?" |

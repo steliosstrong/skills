@@ -1,6 +1,6 @@
 ---
 name: "product-scoping-doc"
-description: "Draft minimal, prose-first product scoping documents for any project or company. Use whenever the user asks to create, draft, write, or revise a scoping doc, product scope, spec, feature scope, project brief, or one-pager — or says things like \"scope this out\", \"write a scoping draft\", \"spec page for X\", or \"shorten this into a scoping doc\". Runs a short structured interview first, then produces a compact team-first doc with an exec summary on top — prose-first, around six sections, soft two-page ceiling, always ending with open questions to drive decisions."
+description: "Draft minimal, prose-first product scoping documents for any project or company. Use whenever the user asks to create, draft, write, or revise a scoping doc, product scope, spec, feature scope, project brief, or one-pager, or says things like \"scope this out\", \"write a scoping draft\", \"spec page for X\", or \"shorten this into a scoping doc\". Runs a short structured interview first, then produces a compact team-first doc with an exec summary on top: prose-first, around seven sections, soft three-page ceiling, with a testable success measure and always ending with open questions to drive decisions."
 license: "MIT"
 metadata:
   author: "Stelios Strongylis"
@@ -21,16 +21,16 @@ House style, non-negotiable:
 - Humane and tight: plain warm language a colleague would use, no jargon, no filler
 - Never use em dashes anywhere in the doc; use commas, colons, or hyphens instead
 - Prose paragraphs over bullet walls; tight bullets (under 15 words) only where they aid scanning
-- Around six sections; skip any that don't apply, add at most one domain section
-- Soft ceiling of two pages: exec summary readable in a minute, full doc in five
+- Around seven sections; skip any that don't apply, add at most one domain section
+- Soft ceiling of three pages: exec summary readable in a minute, full doc in seven. The extra page is for evidence and success measures, never for more sections or longer prose
 - Every doc ends with Open questions: real decisions, not rhetorical filler
 
 ## Step 1 — Interview before drafting
 
 Never draft from a bare title. Ask 3–6 targeted questions first (use AskUserQuestion when available). If the user already provided a rich brief, skip questions that are answered and confirm only the gaps. Cover:
 
-1. **Problem & user** — what pain, for whom, why now?
-2. **Success** — what does good look like? Any metric or signal?
+1. **Problem & user**: what pain, for whom, why now? And how does the team know: observed (data, research), reported (someone said so) or assumed?
+2. **Success**: what will users do differently if this works? Ask for one measure to move, one that must not get worse, and the current baseline if known.
 3. **Constraints** — deadline, budget, compliance, tech, team capacity?
 4. **Appetite** — how much time/effort is this worth (not an estimate)?
 5. **Known unknowns** — what is the team already debating?
@@ -51,7 +51,7 @@ Use these sections in order. Skip what doesn't apply. Don't add others unless tr
 One paragraph, 3–5 sentences, at the very top: the problem, who feels it, the business value of solving it, and the decision being asked of the reader. An exec should be able to read only this plus Open questions and know where they stand.
 
 ### 2. The problem today
-One paragraph describing how things work now and where they break. Use arrows (→) to show the current flow when useful. Ground it in real user pain, not feature gaps. No solutions here.
+One paragraph describing how things work now and where they break. Use arrows (→) to show the current flow when useful. Ground it in real user pain, not feature gaps. No solutions here. Close with one sentence saying whether the pain is observed, reported or assumed; assumed pain is raised again under Open questions.
 
 ### 3. Scope
 Shape this section by the user's phasing answer from Step 1.
@@ -78,13 +78,16 @@ Tight bullets: what this explicitly will not address. Prevents scope-creep debat
 
 Non-goals stay in every variant.
 
-### 4. [Domain section]
+### 4. Success and bets
+Three to five sentences. Name the goal, then one measure that shows progress toward it and one guardrail that must not get worse, with the baseline when known. State the riskiest assumption as a hypothesis that can be proven wrong, and the result that would make the team stop or re-scope. If the user gave no measure, skip this section and put the missing measure under Open questions.
+
+### 5. [Domain section]
 One section for the most important domain-specific content, named concretely: "Pricing", "Compliance model", "Data model", "Technical notes", "Go-to-market". At most one; if two feel essential, the doc is probably two docs.
 
-### 5. Risks & requirements
+### 6. Risks & requirements
 What could kill or block this, and what must exist before launch. Tight bullets. Pair each material risk with a mitigation or an owner. Beyond execution risks, consider external ones: industry standards and regulation the product must meet, and competitive risk — what rivals offer or could ship that changes this scope's value. Merge into one section unless the project is risk-heavy.
 
-### 6. Open questions
+### 7. Open questions
 Mandatory, always last. 3–6 real decisions the team or leadership must make, each under one line. This is what the meeting is about.
 
 ## Rules
@@ -93,9 +96,10 @@ Mandatory, always last. 3–6 real decisions the team or leadership must make, e
 - No table of contents, no tables unless comparing 3+ items across attributes, no emoji in headers
 - Skip preambles like "This document covers…" — start with content
 - H1 for sections; avoid H2/H3 unless a section genuinely has sub-parts
-- New content must earn its words; when over two pages, cut before restructuring
+- New content must earn its words; when over three pages, cut before restructuring
 - Never fabricate metrics, dates, or stakeholder positions; turn unknowns into open questions
 - Stay on the problem: if a sentence describes how to build something, cut it or move it to Open questions
+- Remove ambiguity before polish: an AI tool reading this doc will guess instead of asking, so any term or boundary that can be read two ways is defined in a few words or moved to Open questions
 
 ## Step 3 — Output
 
@@ -133,7 +137,11 @@ If updating an existing scoping doc, preserve its structure; don't reintroduce r
 - [Explicitly out of scope]
 - [Explicitly out of scope]
 
-# [Domain section — e.g., Pricing]
+# Success and bets
+
+[Goal, one measure plus one guardrail, baseline if known. The riskiest assumption as a testable hypothesis and what would stop the work.]
+
+# [Domain section, e.g., Pricing]
 
 [Prose or tight bullets.]
 
