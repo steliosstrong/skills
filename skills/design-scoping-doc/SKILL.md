@@ -18,7 +18,7 @@ House style, non-negotiable:
 - Qualitative motion language by default. Describe how interactions should feel (crisp, calm, alive, deliberate), not durations, curves or property names. The one exception is the opt-in line in Craft expectations below.
 - Humane and tight: plain language a colleague would use, no jargon, no filler.
 - Never use em dashes anywhere in the doc; use commas, colons, or hyphens.
-- Around six sections, soft ceiling of two pages. The summary reads in a minute, the doc in five.
+- Around seven sections, soft ceiling of three pages. The summary reads in a minute, the doc in seven. Spend the extra page on states and edge cases, never on more adjectives.
 - Every doc ends with a decision checklist the reader can answer in one word per line.
 
 ## Internal quality bar (do not print this list in the doc)
@@ -67,6 +67,12 @@ The feel and conduct of the core components, in prose, as a starting point a too
 ### 4. Screens and states to design
 The inventory of work. Each screen or view on one line, with the states it needs in brackets (empty, loading, error, success, partial, first-time vs returning). Mark what already exists in any material as existing, the rest as to design. Group by flow when there are more than six screens.
 
+Handoffs break on what was left undesigned, so close the inventory with:
+- The screens on the critical path to the product's success measure, marked as such.
+- One line on data variation the designs must survive: very long and very short text, missing data, zero items and many items.
+- Exit flows (cancel, unsubscribe, delete account) listed as screens when the product has accounts or subscriptions.
+- Only if the product shows AI output: the states for first use (what it can and cannot do), wrong or uncertain output, and how the user corrects or dismisses it.
+
 ### 5. Constraints
 Tight bullets only for what is real: platform and framework, brand assets to honor, imagery strategy once decided, accessibility target (WCAG 2.2 AA by default), localisation, performance expectations stated qualitatively (instant-feeling navigation), deadlines. Unknown constraints are omitted, not guessed.
 
@@ -85,6 +91,7 @@ Other examples of the form:
 - Density: airy / balanced / compact
 - Celebration moment on first completion: yes / no
 - Reference to lead with: [A] / [B]
+- Primary measure this design serves: [A] / [B]
 When the skill ran standalone, add a final sub-list titled "Product gaps" with the product-level unknowns (success measure, scope boundary, secondary users), still phrased for one-word or one-line answers where possible.
 
 ## Rules
