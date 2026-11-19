@@ -5,8 +5,8 @@ Claude skills for taking a product from idea to a live, findable website or app.
 Use them in order as a pipeline, or pick one when you need it. Each works on its own.
 
 ```
-product-scoping-doc  →  design-scoping-doc  →  ui-design  →  website-optimization
-   what and why          how it should feel      the screens     ranks and gets cited
+product-scoping-doc  →  design-scoping-doc  →  ui-design  →  ui-stress-test  →  website-optimization
+   what and why          how it should feel     the screens    what breaks        ranks and gets cited
 ```
 
 ## Install
@@ -38,11 +38,11 @@ Copy any `SKILL.md` into your project, or paste it into a chat.
 
 | Skill | What it does | Say something like |
 | --- | --- | --- |
-| [product-scoping-doc](skills/product-scoping-doc/SKILL.md) | Short interview, then a prose-first scoping doc: exec summary on top, about seven sections within three pages, a testable success measure, and open questions that drive decisions. | "Scope this out", "write a one-pager for X" |
-| [design-scoping-doc](skills/design-scoping-doc/SKILL.md) | Turns the product scope into a design brief: design language, component feel, screen inventory, and one-word decisions. Built for an AI design tool to read. | "Scope the design", "write a design brief" |
-| [ui-design](skills/ui-design/SKILL.md) | Generates a distinctive interface from a prompt, or refines a first draft (code, URL, screenshots) so it stops looking generic. | "Design this screen", "polish this draft" |
-| [website-optimization](skills/website-optimization/SKILL.md) | Fixes a site end to end so it ranks on Google and gets cited by AI search. Fixes first, then lists every text it wrote for you to review. For non-technical owners. | "Optimize my website", "why doesn't my site show up?" |
-| [ui-stress-test](skills/ui-stress-test/SKILL.md) | Fills a website, design artifact or component with realistic worst-case data (long names, unbreakable emails, missing fields, 0, 1 and 1,000+ items, RTL, emoji), returns a short report of what broke with a fix for each, and asks what to fix. Use it ad hoc, any time. | "Stress-test this page", "try the worst case" |
+| [product-scoping-doc](skills/product-scoping-doc/SKILL.md) | Takes your idea, asks a few questions, and gives you a short scope doc with everything you need: what to build, why, how you'll know it worked, and what's still open. | "Scope this out", "write a one-pager for X" |
+| [design-scoping-doc](skills/design-scoping-doc/SKILL.md) | With or without a product scope, creates a detailed design brief with all the design components you need: look and feel, components and the list of screens. | "Scope the design", "write a design brief" |
+| [ui-design](skills/ui-design/SKILL.md) | Takes a prompt or your first draft (code, URL, screenshots) and gives you screens that don't look AI-generated. | "Design this screen", "polish this draft" |
+| [ui-stress-test](skills/ui-stress-test/SKILL.md) | Takes your page, design or component and tests it against the worst-case data that can break the UI (long names, missing fields, 1,000+ items, emoji). You get what broke and a fix for each. | "Stress-test this page", "try the worst case" |
+| [website-optimization](skills/website-optimization/SKILL.md) | Ask it to check your website and it fixes what keeps you from ranking in search engines and getting cited by AI search. Then it lists every text it changed for you to review. | "Optimize my website", "why doesn't my site show up?" |
 
 ## Why these exist
 
